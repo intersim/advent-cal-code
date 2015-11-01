@@ -1,0 +1,83 @@
+body {
+    background-color: #e60000;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Yesteryear";
+    font-size: 96px;
+}
+
+h5 {
+    color: #ffffff;
+    font-family: "Yesteryear";
+    font-size: 30px;
+}
+
+h6 {
+    color: #ffffff;
+    font-family: "Yesteryear";
+    font-size: 18px;
+}
+
+#cal {
+    position: absolute;
+    width: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.header {
+    width: 600px;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.subheader {
+    width: 600px;
+    height: 70px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.days {
+    float: left;
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    color: #ffffff;
+    font-family: "Futura", sans-serif;
+    font-size: 42px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Sunday {
+    clear: both;
+}
+
+.byline {
+    text-align: left;
+    vertical-align: middle;
+    clear: both;
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+a:active {
+    text-decoration: none;
+    color: green;
+}
