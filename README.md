@@ -1,3 +1,7 @@
 # advent-cal-code
 
-This project is intended to be a fun, festive page I can share with family and friends; it's also giving me an opportunity to learn new things about design and coding.
+You can see a version of the calendar here: http://www.emilyjazz.com/advent.html
+
+This project is intended to be a fun, festive page I can share with family and friends, and it's also given me an opportunity to learn new things about design and coding. The main page is a calendar for the month of December, with each number linking to a page for that day.
+
+Upcoming changes: I'll be continuing to update content for each of the "day" pages, and want to add more images and fun visuals to make the day pages more entertaining.
