@@ -6,4 +6,4 @@ This project is intended to be a simple, festive page I can share with family an
 
 I wanted the page to have a vintage look; the look was inspired by a 1950s Christmas card I found, as well as vintage illustrated versions of The Night Before Christmas.
 
-Upcoming changes: I'll be continuing to improve the content for each of the "day" pages. I particularly want to add more images and fun visuals to make the day pages more entertaining.
+Upcoming changes: I'll be continuing to improve the content for each of the "day" pages. I particularly want to add more images and fun visuals to make the day pages more entertaining. 
