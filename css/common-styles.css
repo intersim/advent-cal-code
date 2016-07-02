@@ -1,0 +1,12 @@
+.center-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-item {
+  text-align: center;
+  width: 80%;
+}
