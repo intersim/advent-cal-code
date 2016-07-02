@@ -5,7 +5,7 @@ body {
 h1 {
     color: #e60000;
     font-family: "Yesteryear";
-    font-size: 72px;
+    font-size: 63px;
 }
 
 h3 {
@@ -19,11 +19,15 @@ h3 {
 }
 
 .mb-a {
-    margin: 0 0 30px 0;
+    margin: 0 0 25px 0;
 }
 
 .mb-b {
-    margin: 0 0 40px 0;
+    margin: 0 0 35px 0;
+}
+
+.mb-c {
+    margin: 0 0 15px 0;
 }
 
 .header {
