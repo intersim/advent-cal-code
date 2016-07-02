@@ -36,7 +36,6 @@ function Orb(){
 		this.speedY = -this.speedY;
 	}
 	this.radius = Math.floor(Math.random() * 15);
-	console.log(this.radius);
 	this.opacity = 0;
 	this.opacityMax = Math.random();
 	this.spawn = Date.now();

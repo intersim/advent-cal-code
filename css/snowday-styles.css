@@ -1,0 +1,41 @@
+body {
+  background-color: rgba(0, 0, 64, 1);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  transition: color 0.66s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.33);
+}
+
+a:visited {
+  color: rgba(255, 255, 255, 0.33);
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.content {
+  color: rgba(255, 255, 255, 1);
+}
+
+.content-container {
+  background-color: rgba(0, 0, 64, 0.5);
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.back {
+  color: rgba(255, 255, 255, 1);
+}
