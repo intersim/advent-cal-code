@@ -1,7 +1,7 @@
 var quotes = [
+	"Buddy the Elf, what's your favorite color?",
 	"I just like to smile. Smiling's my favorite.",
 	"Not now, arctic puffin.",
-	"Buddy the Elf, what's your favorite color?",
 	"So, good news... I saw a dog today.",
 	"You sit on a throne of lies.",
 	"Is there sugar in syrup?",
@@ -44,16 +44,38 @@ var quotes = [
 	"Can I listen to your necklace?"
 ];
 
-var grafLength = [5, 7, 9];
+function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+}
 
-function generateGraf (grafnum) {
-	for (var i = 0; i < grafLength[Math.floor(Math.random()* grafLength.length)]; i++) {
-		$('#graf' + grafnum).append(quotes[Math.floor(Math.random()*quotes.length)] + ' ');
+function emptyAndGenerateGrafs (grafCount) {
+	$('#graf-container').empty();
+	for (var i = 0; i < grafCount; i++) {
+		$('#graf-container').append('<p id="graf' + i + '"></p>');
+	}
+}
+
+function firstSentence () {
+	$('#graf0').append("Buddy the Elf, what's your favorite color? ");
+}
+
+function generateGraf (grafNum) {
+	for (var i = 0; i < getRandomArbitrary(5, 10); i++) {
+		$('#graf' + grafNum).append(quotes[Math.floor(Math.random()*quotes.length)] + ' ');
 	};
 }
 
-$(function () {
-	generateGraf(1);
-	generateGraf(2);
-	generateGraf(3);
+$('#generate').click(function (e) {
+	e.preventDefault();
+
+	var grafCount = $('input[type="text"]').val();
+	emptyAndGenerateGrafs(grafCount);
+
+	if ($('input[type="checkbox"]').is(':checked')) {
+		firstSentence();
+	}
+
+	for (var j = 0; j < grafCount; j++) {
+		generateGraf(j);
+	}
 });
