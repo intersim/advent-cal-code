@@ -29,11 +29,14 @@ canvas {
 }
 
 .content-container {
-  background-color: rgba(0, 0, 64, 0.5);
+  background-color: rgba(0, 0, 64, 0.66);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 64, 0.66);
 }
 
 h1 {
   color: rgba(255, 255, 255, 1);
+  font-family: "Futura", sans-serif;
+  font-size: 2em;
 }
 
 .back {

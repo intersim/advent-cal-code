@@ -60,7 +60,7 @@ function Orb(){
 
 var orbs = {};
 orbs.all = [];
-orbs.max = 40;
+orbs.max = 100;
 orbs.update = function(){
 	for(var i = 0, l = orbs.all.length; i < l; i++){
 		var orb = orbs.all[i];

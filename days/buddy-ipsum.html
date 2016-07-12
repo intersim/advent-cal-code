@@ -2,17 +2,35 @@
 <html>
 <head>
 	<title>Day 3 - Christmas 2016</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+	<link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/common-styles.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/day-styles.css" />
+	<!-- <link rel="stylesheet" type="text/css" media="screen" href="../css/buddy-ipsum.css" /> -->
 </head>
-<body>
-<form id="settings">
-<input type="text" name="num" value="3" size="2"/> paragraphs <br />
-<!-- <input type="radio" name="type" value="quotes" />quotes
-<input type="radio" name="type" value="grafs" checked />paragraphs<br /> -->
-<input type="checkbox" name="start"> Start with "Buddy the Elf, what's your favorite color?"<br />
-<input id="generate" type="submit" value="Generate Buddy Ipsum" />
-</form>
+<body class="content-text">
+	<div class="header">
+		<h1 class="mt-b">Buddy Ipsum</h1>
+		<p class="center">A Lorem Ipsum generator filled with quotes from the classic holiday movie, Elf.</p>
+	</div>
+<div class="center mt-b">
+	<div class="center-item-width content-container">
+	<div class="content">
+		<form id="settings">
+		<input type="text" name="num" value="3" size="2"/> paragraphs <br />
+		<input type="checkbox" name="start"> Start with "Buddy the Elf, what's your favorite color?"<br />
+		<input id="generate" type="submit" value="Generate Buddy Ipsum" />
+		</form>
 
-<div id="graf-container"></div>
+		<div id="graf-container"></div>
+	</div>
+
+	<div class="back">
+		  <h3 class="m0"><a href="../index.html">Back</a></h3>
+		</div>
+
+	</div>
+</div>
 
 <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
 <script type="text/javascript" src="../js/buddy-ipsum.js"></script>

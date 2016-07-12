@@ -60,7 +60,7 @@ function firstSentence () {
 }
 
 function generateGraf (grafNum) {
-	for (var i = 0; i < getRandomArbitrary(5, 10); i++) {
+	for (var i = 0; i < getRandomArbitrary(3, 6); i++) {
 		$('#graf' + grafNum).append(quotes[Math.floor(Math.random()*quotes.length)] + ' ');
 	};
 }

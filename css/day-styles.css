@@ -19,15 +19,23 @@ h3 {
 }
 
 .mb-a {
-    margin: 0 0 25px 0;
+    margin-bottom: 25px;
+}
+
+.mt-a {
+    margin-top: 25px;
 }
 
 .mb-b {
-    margin: 0 0 35px 0;
+    margin-bottom: 35px;
+}
+
+.mt-b {
+    margin-top: 35px;
 }
 
 .mb-c {
-    margin: 0 0 15px 0;
+    margin-bottom: 15px;
 }
 
 .header {
@@ -40,12 +48,15 @@ h3 {
     flex-direction: column;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
+.content-text {
     color: #000000;
     font-family: "Futura", "Arial", sans-serif;
     font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
     text-align: left;
 }
 

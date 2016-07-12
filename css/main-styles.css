@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #003300;
+    background-color: #003311;
 }
 
 h1 {
@@ -78,11 +78,4 @@ a {
 a:hover {
     text-decoration: none;
     color: rgba(255, 0, 0, 1);
-}
-
-canvas {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
 }
